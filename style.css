@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header portion */
+header{
+    height: 10vh;
+    background-color: blue;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+.list{
+    float: right;
+    margin-top: -40px;
+    padding-right: 45px;
+}
+.btn{
+    padding-right: 70px;
+}
+.buttonClass {
+    padding: 10px 10px 10px 10px;
+    font-size:15px;
+    font-family:Arial;
+    width:95px;
+    height:46px;
+    border-width:3px;
+    color:#666666;
+    border-color:#dcdcdc;
+    font-weight:bold;
+    border-top-left-radius:11px;
+    border-top-right-radius:11px;
+    border-bottom-left-radius:11px;
+    border-bottom-right-radius:11px;
+    box-shadow:inset 3px 7px 0px 0px #ffffff;
+    text-shadow:inset 0px 1px 0px #ffffff;
+    background:linear-gradient(#ffffff, #f6f6f6);
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(#f6f6f6, #ffffff);
+  }
+  .mybutton{
+    padding-left: 965px;
+  }
+.left{
+    padding-top: 2px;
+    padding-left: 100px;
+}
+img{
+    height: 9vh;
+    width: 11vw;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 5px;   
+}
+.search{
+    margin-left: 280px;
+    margin-top: -35px;  
+}
+.search input{
+    border-radius: 10px;
+    padding: 0 14px;
+}
+.sbar{
+    width: 540px;
+    height: 20px;
+    align-items: center;
+    padding-bottom: -70px;
+}
+.Search-button{
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Search-button:hover{
+    color: aqua;
+    background-color: rgb(40, 33, 77);
+}
+/* section portion */
+.container{
+    min-height: calc(200vh - 10vh -45vh);
+}
+.eqipmnt-img{
+    width: 150px;
+    height: 120px;
+}
+.card-item{
+   display: inline-flex;
+   justify-content: center;
+   flex-direction: column;
+   padding-left: 15px;
+   
+}
+.card{
+    margin-bottom: 10px;
+    width: 100vw;
+    margin:12px auto;
+    
+}
+.play{
+    background-color: #CCD6A6;
+}
+.mob{
+    background-color: #CEE5D0;
+}
+.home{
+    background-color: #FFE5B4;
+}
+p a{
+    text-decoration: none;
+    text-decoration-style: none;
+   color: blue; 
+}
+.slider{
+    margin:12px auto;
+    width: 80vw;
+}
+.unsplash{
+    height: 60vh;
+    width: 100%;
+}
+/* footer portion */
+.footer-background{
+    height: 45vh;
+    background-color: black;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.row-footer{
+    width: 100%;
+}
+.clearfix{
+    clear: both;
+    content: "";
+    display: table;
+}
+.column-footer{
+    float: left;
+    margin: 11px;
+    width: 23%;
+}
+h4{
+    font-family: "Montserrat";
+    color: #548ca1;
+    text-shadow: 0 0 0.13px #548ca1, 0 0 10px #548ca1;
+}
+.footer-list{
+    padding: 0;
+    line-height: 1.5;
+    list-style: none;
+}
+.list-item{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer-links{
+    text-decoration: none;
+    color: aqua;
+    font-family: "Montserrat";
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.text-centre{
+    padding-top: 20px;
+    padding-left: 550px;
+    color: yellow;
+}
+p a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: blue;
+}
